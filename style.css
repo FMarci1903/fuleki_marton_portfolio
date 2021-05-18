@@ -1,0 +1,187 @@
+@charset "utf-8"
+
+body{
+	font-family:'Raleway', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+#nav{
+	background: black;
+	width: 100%;
+	height:60px;
+	line-height: 60px;
+}
+
+#nav h1{
+	float: left;
+
+}
+
+#nav h1 a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Dancing Script', cursive;
+}
+
+#nav ul {
+	float: right;
+}
+#nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nav ul li :hover {
+
+	background: red;
+	transition: all ease-in-out 0.40s;
+}
+#hello{
+
+	background: red;
+}
+#hello1{
+
+	background: red;
+	height: 5px;
+}
+#hello2{
+	
+	background: url(images/kep2.jpg) no-repeat;
+	width: 100%;
+	height: 1200px;
+}
+.hello2Text{
+
+	color: white;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 60px;
+	padding: 50px 50px;
+	font-size: 36px;
+}
+.Cim{
+	float: middle;
+	margin: 0px 50px;
+	color: white;
+	width: 500px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 60px;
+	padding: 50px 50px;
+	font-size: 25px;
+	border: 3px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-color: red;
+}
+.logo img{
+	float: middle;
+	padding: 50px 55px;
+	
+	width: 500px;
+	height: auto;
+}
+#rolam{
+	
+	background: url(images/kep2.jpg) no-repeat;
+	width: 100%;
+	height: 1200px;
+}
+.rolamText{
+
+	color: white;
+	width: 50%;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 40px;
+	margin: 50px;
+	padding: 50px 50px;
+	font-size: 36px;
+	display: inline-block;
+	float: left;
+	border: 3px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-color: red;
+}
+.profil{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	float: right;
+	padding: 100px 150px;
+	margin: 50px 100px;
+	border: 3px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.leirasText{
+	margin: 50px;
+	color: white;
+	width: 80%;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 40px;
+	padding: 50px 50px;
+	font-size: 40px;
+	display: inline-block;
+	float: left;
+	border: 3px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-color: red;
+}
+.munkakep1{
+
+	width: 28%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	padding: 10px 10px;
+	margin: 20px;
+	border: 3px solid red; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 2px; /* Some padding */
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.munkakep2{
+
+	width: 28%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	padding: 10px 10px;
+	margin: 20px;
+	border: 3px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.munkakep3{
+
+	width: 28%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	padding: 10px 10px;
+	margin: 20px;
+	border: 3px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
